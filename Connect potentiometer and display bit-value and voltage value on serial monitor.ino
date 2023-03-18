@@ -6,10 +6,10 @@ Serial.begin(9600); // start serial monitor
 }
 
 void loop() {
- int Bitvalue = analogRead(AI);
-Serial.print( "Bitvalue = "); 
-Serial.println(Bitvalue);
+ int Bitvalue = analogRead(AI); // To set the Bitvalue into the analog value from A1
+Serial.print( "Bitvalue = "); // print out the line : Bitvalue = 
+Serial.println(Bitvalue); // print the value of AI
 float volt = (Bitvalue/1023.0)*5.0; // use this fomula to convert the bit value to voltage value 
-Serial.print( " Volt = ");
-Serial.println(volt);
+Serial.print( " Volt = "); // print out the line : volt =
+Serial.println(volt); // print out the voltage value
 }
