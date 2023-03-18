@@ -5,17 +5,14 @@ void setup() {
   // initialize serial communication at 9600 bits per second:
   Serial.begin(9600);
 }
-
-// the loop routine runs over and over again forever:
 void loop() {
   int val = analogRead(AI); 
-  // put your main code here, to run repeatedly:
   Serial.println(val);
-  if (val <120) { 
+  if (val <120) { // the first condition if the value from the value less than 120 RGB turn white 
   analogWrite( 3,255);
   analogWrite(5, 255);
   analogWrite (6,255);}
- else if (val>120 && val <=300){
+ else if (val>120 && val <=300){ // the second condition if val bigger than 120 but less and equal to 300 RGB turn 
 analogWrite( 3,255);
 analogWrite(5, 102);
 analogWrite (6,255); }
