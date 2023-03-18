@@ -37,9 +37,9 @@ analogWrite(5,0);
 analogWrite(6,255);
 }
 else {
-analogWrite( 3, 255);
+analogWrite( 3, 0);
 analogWrite(5, 0);
-analogWrite (6, 102);
+analogWrite (6, 0);
 
 
 
