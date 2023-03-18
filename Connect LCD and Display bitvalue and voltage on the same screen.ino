@@ -37,8 +37,8 @@ Serial.print("\t");
 Serial.print("RB Value = ");
 Serial.print(RB);
 lcd.setCursor(0,0); 
-lcd.print("voltage = ");
-lcd.println(volt);
+lcd.print("Current = ");
+lcd.println(IA);
 lcd.setCursor (0,1);
 lcd.print (" Bitvalue = ");
 lcd.println(x);}
