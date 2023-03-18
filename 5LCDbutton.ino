@@ -59,17 +59,8 @@ if (box == 1) {
   lcd.print("Val=");
   lcd.print(val);
   lcd.print("                    ");
-  //lcd.setCursor(0, 1); 
-  //lcd.print("             ");
-
+  
 
 }
 
-
-// This sets up the location of the lcd print text on the screen. 0 is all the way to the left. 1 is the row of the LCD
-
-
-//0 starting all the way from the left. 0 again starting from the frist row
-
-}
 
